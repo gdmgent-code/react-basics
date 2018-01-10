@@ -5,6 +5,7 @@ import Welcome from './Welcome';
 import Clock from './Clock';
 import DigitalClock from './DigitalClock';
 import ToggleButton from './ToggleButton';
+import LoginControl from './LoginControl';
 
 class App extends Component {
   constructor() {
@@ -39,6 +40,7 @@ class App extends Component {
         <DigitalClock increment="2" />
         <DigitalClock increment="3" />
         <ToggleButton />
+        <LoginControl />
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
