@@ -6,6 +6,8 @@ import Clock from './Clock';
 import DigitalClock from './DigitalClock';
 import ToggleButton from './ToggleButton';
 import LoginControl from './LoginControl';
+import NumberList from './NumberList';
+import ContactForm from './ContactForm';
 
 class App extends Component {
   constructor() {
@@ -41,6 +43,8 @@ class App extends Component {
         <DigitalClock increment="3" />
         <ToggleButton />
         <LoginControl />
+        <NumberList numbers={[0, 1, 2, 3, 4]} />
+        <ContactForm />
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
