@@ -23,7 +23,7 @@ class ContactForm extends Component {
   }
 
   handleChangeFlavor = (event) => {
-    this.setState({flavor: event.target.value.toUpperCase()});
+    this.setState({flavor: event.target.selectedOption });
   }
 
   handleChangeTechnologies = (event) => {
